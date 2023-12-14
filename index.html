@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jung's Portfolio</title>
     <meta name="author" content="Jung Home"/>
-    <link rel="shortcut icon" href="./image/profile_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="image/profile_favicon.ico" type="image/x-icon"/>
 
     <meta property="og:title" content="jung의 포트폴리오"/>
     <meta property="og:type" content="website"/>
@@ -15,6 +16,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="./css/main_home.css" type="text/css" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
 
     <style type="text/css" rel="stylesheet">
         body {
@@ -26,6 +31,48 @@
 </head>
 
 <body>
-    포트폴리오 시작
+    <header class="header">
+        <div class="header_logo">
+            <img class="header_logo_img" src="./image/profile-modified.png" alt="logo" width="34"/>
+            <h1 class="header_logo_title">
+                <a href="#"> Jung </a>
+            </h1>
+        </div>
+
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li><a class="header_menu_item active" herf="home"> Home </a></li>
+                <li><a class="header_menu_item" herf="about"> About </a></li>
+                <li><a class="header_menu_item" herf="skills"> Skills </a></li>
+                <li><a class="header_menu_item" herf="work"> My Work </a></li>
+                <li><a class="header_menu_item" herf="testimonial"> Testimonial </a></li>
+                <li><a class="header_menu_item" herf="contact"> Contact </a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section_style">
+            <div class="home_container">
+                <img class="home_avatar" src="./image/profile-modified.png" alt="jung's images" width="250">
+                <h2 class="section_title">
+                    Hello <br>
+                    I'm <strong class="home_title-strong"> Web Engineer </strong>, Jung
+                </h2>
+                <p class="section_description"> A software engineer </p>
+                <a class="section_contact" href="contact"> Contect Me </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
