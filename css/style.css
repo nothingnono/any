@@ -6,7 +6,7 @@
     --color-gray: #1b1e26;
 
     --color-primary: var(--color-black);
-    --color-primart-variant: var(--color-gray);
+    --color-primary-variant: var(--color-gray);
 
     --color-accent: var(--color-blue);
     --color-accent-variant: var(--color-orange);
