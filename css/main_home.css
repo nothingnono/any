@@ -5,6 +5,14 @@
     padding-top: 7rem;
     text-align: center;
 }
+
+.home_container {
+    opacity: 1;
+}
+
+.home_container.home_up {
+    opacity: 0;
+}
     .home_avatar {
         width: 250px;
         height: 250px;

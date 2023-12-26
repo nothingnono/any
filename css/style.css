@@ -44,14 +44,18 @@ button:focus {
     width: 100%;
     background: #050a13;
     padding: 1rem;
+    z-index: 999;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.header.header-dark {
+    background-color: #f90;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
     .header_logo {
         display: flex;
-        width: 20%;
         align-items: center;
         gap: 8px;
     }
@@ -64,7 +68,6 @@ button:focus {
         }
     .header_menu {
         display: flex;
-        height: 80%;
         gap: 4px;
     }
         .header_menu_item {

@@ -1,6 +1,6 @@
 .testimonial_all { margin: 3rem;}
     .testimonial_each {
-        display: felx;
+        display: flex;
         gap: 2rem;
         align-items: center;
         margin-bottom: 2rem;

@@ -3,6 +3,7 @@
     justify-content: space-between;
     gap: 1rem;
     margin: 2.5rem 0;
+    opacity: 0%;
 }
 .max-container {
     max-width: 1200px;
@@ -19,6 +20,7 @@
         0px 8px 24px rgba(17,17,26,01),
         0px 16px 56px rgba(17,17,26,0.1);
     }
+
     .about_icon {
         font-size: 4rem;
         margin: 1rem 0;
